@@ -1,14 +1,13 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "vosens-tension-meter",
+  "title": "Vosen's Tension Meter",
+  "description": "WIP module to add a tension meter ala Owlcat Games' Rogue Trader mechanic.",
   "version": "#{VERSION}#",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+    "minimum": 13,
+    "verified": 13
   },
   "authors": [
     {
