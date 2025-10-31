@@ -9,13 +9,14 @@
     }
   ],
   "esmodules": [
+    "esmodules/vosens-tension-meter.js",
     "esmodules/settings.js",
     "esmodules/utils.js"
   ],
   "scripts": [
   ],
   "styles": [
-    "styles/module.css"
+    "styles/vosens-tension-meter.css"
   ],
   "languages": [
     {
