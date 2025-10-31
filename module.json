@@ -1,29 +1,18 @@
 {
-  "id": "vosens-tension-meter",
   "title": "Vosen's Tension Meter",
   "description": "WIP module to add a tension meter ala Owlcat Games' Rogue Trader mechanic.",
   "version": "#{VERSION}#",
-  "library": "false",
-  "manifestPlusVersion": "1.2.0",
-  "compatibility": {
-    "minimum": 13,
-    "verified": 13
-  },
   "authors": [
     {
       "name": "Voseneidch",
       "url": "https://github.com/vosenedich"
     }
   ],
-  "relationships": {
-    "systems": [],
-    "requires": []
-  },
   "esmodules": [
-    "scripts/module.js"
+    "esmodules/settings.js",
+    "esmodules/utils.js"
   ],
   "scripts": [
-    "scripts/lib/lib.js"
   ],
   "styles": [
     "styles/module.css"
@@ -38,12 +27,11 @@
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
+  "id": "vosens-tension-meter",
+  "compatibility": {
+    "minimum": 13,
+    "verified": 13
+  },
   "license": "LICENSE",
-  "readme": "README.md",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-    }
-  ]
+  "readme": "README.md"
 }
